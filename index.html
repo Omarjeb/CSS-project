@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Omar JEBALI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio de Omar JEBALI</h1>
+      <nav>
+        <ul>
+          <li><a class="active" href="">Home</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="projets">
+        <h2>Mes projets</h2>
+        <div class="projet">
+          <h3>Portfolio de Omar JEBALI</h3>
+          <img src="Capture.PNG" alt="404" />
+          <p>Ce porte-feuille est mon premier projet.</p>
+          <a href="#projets">Voir le projet</a>
+        </div>
+      </section>
+      <section id="about">
+        <h2>À propos de moi</h2>
+        <img src="omar.jpeg" alt="Photo de profil" />
+        <p>
+          Omar Jebali, 37 ans, est titulaire d'un master en systèmes de
+          télécommunications et réseaux. <br>
+          J'ai une expérience de six ans dans le domaine de la fonderie, comme
+          directeur technique adjoint. <br>
+          À l'heure actuelle, je suis en formation "Full-Stack Javascript" chez GoMyCode. <br>
+          <br>
+        </p>
+        <h2>Centre d'intérèt</h2>
+        <ul
+          style="list-style-image: url('https://i.ibb.co/vHWV6H3/trophy.png')"
+        >
+          <li>Randonné Pédestre</li>
+          <li>Football</li>
+          <li>Jeux d'échec</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="envoyer-email" method="POST">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required />
+
+          <label for="email">E-mail :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+      <footer>
+        <a href="https://www.facebook.com/omarjebali26/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1024px-Facebook_F_icon.svg.png"
+            alt="facebookicon"
+            width="50px"
+          />
+        </a>
+        <a href="https://www.instagram.com/omarjebali26/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+            alt="instagramicon"
+            width="50px"
+          />
+        </a>
+        <a href="https://www.linkedin.com/omarjebali26/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
+            alt="LinkedInicon"
+            width="50px"
+          />
+        </a>
+        <a href="https://www.github.com/Omarjeb/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/2048px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png"
+            alt="githubicon"
+            width="50px"
+          />
+        </a>
+        <p>© 2023 OMAR JEBALI</p>
+      </footer>
+    </main>
+  </body>
+</html>
